@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "mc.craig.software.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ExampleMixin"
+  ],
+  "client": [
+    "EntityRenderers"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
